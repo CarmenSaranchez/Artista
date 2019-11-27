@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html leng="en">
+    <head>
+        <meta charset="utf-8">
+        <title> Albers, Josef </title>
+        <link href="https://fonts.googleapis.com/css?family=Jomolhari&display=swap" rel="stylesheet">
+        <style type="text/css">
+            :root{
+                --c:orange;
+                --altura:70vh;
+            }
+            *{
+                padding: 0;
+                margin: 0;
+                
+            }
+            body{
+                font-size:18px;
+            }
+            header{
+                width: 100%;
+                display: flex;
+                
+                 }
+          img{
+                width: 100%;
+                height: auto;
+            }
+           
+             header>div{
+                width: 50%;
+                height: 60vh;
+                 display: flex;
+            }
+        
+            .bloc_esq{
+                background: purple;
+            }
+            .blocc_esq img{
+                object-fit: cover;
+                object-position: top center;
+            }
+            .bloc_dre{
+                background: pink;
+            }
+            .bloc_dre img{
+                object-fit: cover;
+                object-position: top center;
+            }
+            h1{
+                font-family: 'Jomolhari', serif;
+                position: absolute;
+                text-align: center;
+                top: 45vh;
+                font-size: 3vw;
+                width: 100%;
+                color: black; 
+                
+            }
+            article{
+                width: 800px;
+                margin: auto;
+            }
+            article>p:first-child {
+                padding: 40px 0;
+                color: orange;
+                column-count: 2;
+                column-gap: 30px;
+                text-align: justify;
+                hyphens: auto;
+                line-height: 25px;
+                column-rule: 1px solid orange;
+            }
+            article #cos>p:first-child:first-letter{
+                color: black;
+                font-family: fantasy;
+                font-size: 5em;
+                float: left;
+                margin-right: 0.2em;
+                margin-top: -1,5em;
+                margin-bottom: 0em;
+                padding-bottom: 0em;
+                padding-right: 0.2em;
+            }
+            article #cos{
+                text-align: justify;
+                hyphens: auto;
+                width: auto;
+                padding: 0 10em;
+                
+               
+            }
+            article #cos p{
+                padding: 0 0 1.5em 0;
+            }
+            
+            @media (max-width:600px){
+                body{
+                    background: azure;
+                    font-size: 12px;
+                }
+            }
+        
+        </style>
+        
+    </head>
+    <body>
+        <header>
+            <div class="bloc_esq">
+               <img src="img/foto1.jpg">
+              </div>
+            
+            <div class="bloc_dre">
+            <img src="img/foto2.jpg">
+            </div>
+            <h1>Josef Albers, artista y profesor alemán</h1>
+            
+        </header>
+        <article>
+            <p>Josef Albers (19 de marzo de 1888 - 25 de marzo de 1976) fue un artista y profesor alemán cuyo trabajo, tanto en Europa como en los Estados Unidos, creó la base de algunos de los programas de educación artística más influyentes del siglo XX. Su esposa fue la también artista Anni Albers.Albers nació en Bottrop, Westfalia. Desde 1901 hasta 1905 estudió en la universidad de magisterio de Büren y luego enseñó como profesor de escuela primaria. En 1908 vio por primera vez las obras de Paul Cézanne y Henri Matisse en Museo Folkwang en Essen. Inspirado por Piet Mondrian en 1913 pintó su primer cuadro abstracto.
+            </p>
+            
+            <div class="cercle">
+            <img src="img/obra%203.jfif" alt="retrat">
+            </div>
+            
+             <div id= "cos">
+           
+             <p>Albers estudió arte en la Real Escuela de Arte en Berlín de 1913 a 1915, y en la Escuela de Arte en Essen de 1916 a 1919; después estudió en la Academia de las Artes de Prusia con Franz von Stuck y de 1919 a 1920 en el Academia de Bellas Artes en Múnich hasta que en 1920 entró en la Escuela de la Bauhaus en Weimar (a partir de 1925 en Dessau, de 1932 a 1933 en Berlín). Comenzó a enseñar en el Departamento de Diseño en 1923 y fue ascendido a profesor en 1925, el mismo año en que la Bauhaus se mudó a Dessau. Su trabajo en este momento incluía el diseño de muebles y de trabajo con el vidrio. En esa época se casó con Anni Albers que era entonces una estudiante de la Bauhaus.</p>
+             
+             <div class="cercle">
+             <img src ="img/obra4.jpg">
+            </div>
+             
+             <p>Consumado diseñador, fotógrafo, tipógrafo y poeta, Albers es principalmente recordado como pintor abstracto. Favoreció un acercamiento muy disciplinado a la composición y publicó varios libros y artículos sobre la teoría de la forma y el color, así como realizó diversas obras pictóricas en este sentido. Las más conocidas quizás sean sus rigurosas series Homenaje al cuadrado, que empezó en 1949, donde explora las interacciones cromáticas entre cuadrados de distintos colores organizados concéntricamente en el lienzo. Sus teorías sobre el arte y su enseñanza fueron de gran valor formativo para la siguiente generación de artistas. El trabajo de Albers representa una transición entre el arte europeo tradicional y el arte norteamericano. Su trabajo incorpora las influencias europeas de los constructivistas y el movimiento Bauhaus, y su intensidad y la pequeñez de escala son típicamente europeos. Sin embargo, su influencia se redujo fuertemente en los artistas americanos de la década de 1950 y 1960.</p>
+             </div>
+        </article>
+    </body>
+</html>
